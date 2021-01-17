@@ -74,6 +74,12 @@ a:hover {
   text-decoration: none;
 }
 
+papertitle:focus,
+papertitle:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
 body,
 td,
 th,
@@ -97,12 +103,20 @@ heading {
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: 700
+  font-weight: 700;
+  color: #123554
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+}
+
+pre {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .one {
